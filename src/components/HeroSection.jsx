@@ -4,7 +4,7 @@ import Auditor from "../assets/AUDITOR-COVER.png";
 
 const HeroSection = () => {
   return (
-    <div className="relative min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center px-6 lg:px-16 bg-[#18181A] text-white bg-no-repeat lg:bg-cover lg:bg-center">
+    <div className="relative min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center px-6 lg:px-16 bg-[#18181A] text-white bg-no-repeat lg:bg-cover lg:bg-center mt-8">
       {/* Background Image dengan Efek Blur */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
