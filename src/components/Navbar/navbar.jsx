@@ -38,7 +38,9 @@ const Navbar = () => {
               alt="Logo"
               className="w-10 h-10 object-cover md:w-12 md:h-12"
             />
-            <h3 className="text-lg md:text-xl font-bold font-mono text-white"></h3>
+            <h3 className="text-lg md:text-xl font-bold font-mono text-white">
+              AIAuditor
+            </h3>
           </div>
 
           {/* Menu Desktop */}

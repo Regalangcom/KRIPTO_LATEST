@@ -10,7 +10,7 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${Auditor})` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-lg"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-10 backdrop-blur-lg"></div>
       </div>
 
       {/* Gambar dengan Animasi */}

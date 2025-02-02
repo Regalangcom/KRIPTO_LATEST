@@ -21,18 +21,17 @@ const Tools = () => {
       </h1>
       <div className="flex flex-wrap justify-center gap-8">
         {/* Card 1 */}
-        <div className="card bg-gradient-to-r from-violet-600  to-orange-500 text-white w-96 h-auto p-4 flex flex-row justify-between items-start transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/50 rounded-lg overflow-hidden">
-          <div className="relative">
-            {/* Badge */}
-            <div className="badge absolute top-0  transform translate-x-2 -translate-y-2 bg-white text-black rounded-full py-2 px-4 text-xs">
-              Beta
-            </div>
-          </div>
+        <div className="card relative bg-gradient-to-r from-violet-600 to-orange-500 text-white w-96 h-auto p-4 flex flex-row justify-between items-start transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/50 rounded-lg overflow-hidden">
+          {/* Badge di sudut kiri atas */}
+          <span className="absolute top-2 left-2 bg-white text-black text-xs font-bold px-2 py-1 rounded-full z-10">
+            BETA
+          </span>
+
           <div className="card-body flex flex-col justify-between items-start ml-4 flex-grow h-full">
             <h2 className="card-title font-mono font-bold text-xl font-semibold mb-4">
               AI Auditor
             </h2>
-            <p className="font-mono  font-bold text-base mb-4 flex-grow overflow-hidden">
+            <p className="font-mono font-bold text-base mb-4 flex-grow overflow-hidden">
               {isReadMoreOpen[3]
                 ? "An AI smart contract auditor is a tool that uses advanced algorithms to analyze smart contracts and identify potential vulnerabilities or issues that could lead to a scam or other security risk. The auditor uses machine learning techniques to identify patterns and anomalies in the code, flagging potential issues for further review.."
                 : "An AI smart contract auditor is a tool that uses advanced algorithms to analyze smart..."}
