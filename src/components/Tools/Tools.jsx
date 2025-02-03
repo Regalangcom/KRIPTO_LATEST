@@ -15,13 +15,13 @@ const Tools = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div className="container mx-auto px-4 py-10 ">
       <h1 className="text-3xl font-bold text-center mb-8">
         Our Suite of AI & Privacy Tools
       </h1>
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex-wrap  grid grid-cols-2   m-10 justify-center gap-8">
         {/* Card 1 */}
-        <div className="card bg-gradient-to-r from-violet-600 to-orange-500 text-white w-96 h-auto p-4 flex flex-row justify-between items-start transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/50 rounded-lg overflow-hidden">
+        <div className="card  bg-gradient-to-r from-violet-600 to-orange-500 text-white w-96 h-auto p-4 flex flex-row justify-between items-start transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/50 rounded-lg overflow-hidden">
           <div className="card-body flex flex-col justify-between items-start ml-4 flex-grow h-full">
             <h2 className="card-title font-mono font-bold text-xl mb-4 flex items-center">
               AI Auditor
@@ -59,7 +59,7 @@ const Tools = () => {
             <p className="font-mono font-bold text-base mb-4 flex-grow overflow-hidden">
               {isReadMoreOpen[3]
                 ? "A privacy mixer is a tool that can be used to make cryptocurrency transactions more private and anonymous. Also known as a coin mixer or coin tumbler, this tool works by pooling multiple transactions together, mixing them, and then redistributing them to the intended recipients..."
-                : "A privacy mixer is a tool that can be used to make cryptocurrency transactions more private and anonymous...."}
+                : "A privacy mixer is a tool that can be used to make cryptocurrency transactions more private and anonymous..."}
               <span
                 onClick={() => toggleReadMore(3)}
                 className="text-black font-mono underline underline-offset-1 font-bold cursor-pointer ml-1"
@@ -128,8 +128,7 @@ const Tools = () => {
             </div>
           </div>
         </div>
-        {/* Card 3 */}
-        {/* Card 3 */}
+
         <div className="card bg-gradient-to-r from-violet-600 to-orange-500 text-white w-96 h-auto p-4 flex flex-row justify-between items-start transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/50 rounded-lg overflow-hidden">
           <div className="card-body flex flex-col justify-between items-start ml-4 flex-grow h-full">
             <h2 className="card-title font-mono font-bold text-xl mb-4 flex items-center">
@@ -156,7 +155,6 @@ const Tools = () => {
             </div>
           </div>
         </div>
-        {/*  */}=
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ const CardInformation = () => {
     if (!isReadMoreOpen[cardId] && words.length > maxLines * 10) {
       return (
         <>
-          {words.slice(0, maxLines * 10).join(" ")}...
+          {words.slice(0, maxLines * 10).join(" ")}
           <span
             className="cursor-pointer font-mono font-bold text-violet-600 hover:text-violet-800"
             onClick={() => toggleReadMore(cardId)}
@@ -114,7 +114,7 @@ const Card = ({
           {title}
         </h2>
         <p className="font-mono text-base font-bold text-white">
-          {isReadMoreOpen ? description : truncatedText}...
+          {isReadMoreOpen ? description : truncatedText}..
           <span
             className="ml-2 cursor-pointer text-violet-600 font-mono hover:text-violet-800"
             onClick={() => toggleReadMore(id)}

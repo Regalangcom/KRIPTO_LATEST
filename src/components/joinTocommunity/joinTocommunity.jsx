@@ -4,7 +4,7 @@ import logo from "../../assets/motion.gif";
 const JoinTocommunity = () => {
   return (
     <div>
-      <div className="hero bg-base-200 min-h-screen bg-black">
+      <div className="hero  min-h-screen bg-black ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={logo} className="max-w-sm rounded-lg shadow-2xl" />
           <div>

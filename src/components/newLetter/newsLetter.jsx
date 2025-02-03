@@ -5,7 +5,7 @@ const NewsLetter = () => {
   return (
     <div>
       {/* Hero Section for Sign Up Newsletter */}
-      <div className="hero bg-black mb-28">
+      <div className="hero bg-black ">
         <div className="hero-content flex flex-col lg:flex-row items-center lg:items-start">
           {/* Gambar */}
           <img
